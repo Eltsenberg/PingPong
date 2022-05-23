@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc534d6bbb574ce5845c38ef0fc025d, type: 3}
+  m_Name: UserData
+  m_EditorClassIdentifier: 
+  sharedGroupId: 0
+  structComponents:
+  - rid: 5008499129968230402
+  - rid: 5008499129968230407
+  - rid: 5008499129968230408
+  - rid: 5008499129968230409
+  - rid: 5008499129968230410
+  - rid: 5008499160050827596
+  removeStructComponents: []
+  templates: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5008499129968230402
+      type: {class: IsNeutral, ns: PingPong.Components, asm: PingPong}
+    - rid: 5008499129968230407
+      type: {class: PlayGameTimer, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 3
+    - rid: 5008499129968230408
+      type: {class: TimeSpawnBall, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 2
+    - rid: 5008499129968230409
+      type: {class: TimeLaunch, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 3
+    - rid: 5008499129968230410
+      type: {class: TimerDefault, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 2
+    - rid: 5008499160050827596
+      type: {class: PlayerID, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 0

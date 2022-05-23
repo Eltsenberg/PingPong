@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b1c87c3a6079448a446f0187378cfc, type: 3}
+  m_Name: AvatarFeature
+  m_EditorClassIdentifier: 
+  editorComment: 
+  eventPassPlayer: {fileID: 11400000, guid: 4828df09d1fde4148a7e23ac9d5d24d4, type: 2}
+  data: {fileID: 11400000, guid: 8472e6479817b45efa844391d495ca5f, type: 2}
+  player1view: {fileID: 1737680424650381353, guid: 7c2be3b7c9ffc46e38b83bc953101b1a, type: 3}
+  player2view: {fileID: 1737680424650381353, guid: dccee0bdcff9c30449f1d7a340de3eca, type: 3}

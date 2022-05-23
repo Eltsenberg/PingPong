@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc534d6bbb574ce5845c38ef0fc025d, type: 3}
+  m_Name: BallData
+  m_EditorClassIdentifier: 
+  sharedGroupId: 0
+  structComponents:
+  - rid: 5008499040889078135
+  - rid: 5008499040889078138
+  - rid: 5008499040889078140
+  - rid: 5008499040889078142
+  - rid: 5008499040889078144
+  removeStructComponents: []
+  templates: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5008499040889078135
+      type: {class: Ball, ns: PingPong.Components, asm: PingPong}
+    - rid: 5008499040889078138
+      type: {class: DefaultScale, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 1, y: 1, z: 1}
+    - rid: 5008499040889078140
+      type: {class: MonoView, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {fileID: 2011329654389125840, guid: bd5d5e3d6ab0cfc4ea4100c553435afa, type: 3}
+    - rid: 5008499040889078142
+      type: {class: Radius, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 0.5
+    - rid: 5008499040889078144
+      type: {class: Speed, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 5

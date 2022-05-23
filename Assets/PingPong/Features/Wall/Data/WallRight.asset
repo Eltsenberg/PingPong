@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc534d6bbb574ce5845c38ef0fc025d, type: 3}
+  m_Name: WallRight
+  m_EditorClassIdentifier: 
+  sharedGroupId: 0
+  structComponents:
+  - rid: 5008499040889078117
+  - rid: 5008499040889078118
+  - rid: 5008499040889078119
+  - rid: 5008499040889078120
+  - rid: 5008499040889078121
+  - rid: 5008499040889078122
+  removeStructComponents: []
+  templates: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5008499040889078117
+      type: {class: DefaultPosition, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 10, y: 0, z: 0}
+    - rid: 5008499040889078118
+      type: {class: DefaultScale, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 1, y: 1, z: 37}
+    - rid: 5008499040889078119
+      type: {class: MonoView, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {fileID: 7595276848723469992, guid: fc91ab382e6510b43b2e77e6940723b9, type: 3}
+    - rid: 5008499040889078120
+      type: {class: Normal, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 1, y: 0, z: 0}
+    - rid: 5008499040889078121
+      type: {class: OnCollisionRect, ns: PingPong.Components, asm: PingPong}
+    - rid: 5008499040889078122
+      type: {class: RectBox, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 0.5, y: 1, z: 18.5}

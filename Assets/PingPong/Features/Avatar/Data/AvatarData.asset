@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc534d6bbb574ce5845c38ef0fc025d, type: 3}
+  m_Name: AvatarData
+  m_EditorClassIdentifier: 
+  sharedGroupId: 0
+  structComponents:
+  - rid: 5008499042493924916
+  - rid: 5008499042493924918
+  - rid: 5008499042493924921
+  - rid: 5008499042493924922
+  - rid: 5008499042493924923
+  - rid: 5008499042493924924
+  - rid: 5008499129968230411
+  - rid: 5008499129968230412
+  - rid: 5008499173467095040
+  removeStructComponents: []
+  templates: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5008499042493924916
+      type: {class: AvatarTag, ns: PingPong.Components, asm: PingPong}
+    - rid: 5008499042493924918
+      type: {class: DefaultScale, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 4, y: 1, z: 1}
+    - rid: 5008499042493924921
+      type: {class: Normal, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 0, y: 0, z: 1}
+    - rid: 5008499042493924922
+      type: {class: OnCollisionRect, ns: PingPong.Components, asm: PingPong}
+    - rid: 5008499042493924923
+      type: {class: RectBox, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: {x: 2, y: 1, z: 0.5}
+    - rid: 5008499042493924924
+      type: {class: Speed, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 5
+    - rid: 5008499129968230411
+      type: {class: AvatarSpawnPosition, ns: PingPong.Components, asm: PingPong}
+      data:
+        Player1: {x: 0, y: 0, z: -15}
+        Player2: {x: 0, y: 0, z: 15}
+    - rid: 5008499129968230412
+      type: {class: AvatarClampPosition, ns: PingPong.Components, asm: PingPong}
+      data:
+        Min: -7
+        Max: 7
+    - rid: 5008499173467095040
+      type: {class: othDirection, ns: PingPong.Components, asm: PingPong}
+      data:
+        Value: 0
