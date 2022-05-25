@@ -45,7 +45,7 @@ namespace PingPong.Features.Game.Systems {
         void ISystemFilter.AdvanceTick(in Entity entity, in float deltaTime)
         {
             ref readonly int score = ref entity.Read<PlayerScore>().Value;
-            if (score >= 1)
+            if (score >= 5)
             {
                 feature.eventEndGame.Execute();
                 world.SetSharedData(new GamePaused());
